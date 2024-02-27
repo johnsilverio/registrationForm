@@ -7,14 +7,18 @@ body {
   font-size: 16px;
   font-family: Tahoma, sans-serif;
 }
+
 label {
   display: block;
   margin: 0.5rem 0;
 }
-h1, p {
+
+h1,
+p {
   margin: 1em auto;
   text-align: center;
 }
+
 form {
   margin: 0 auto;
   max-width: 500px;
@@ -22,16 +26,20 @@ form {
   width: 60vw;
   padding: 2em;
 }
+
 fieldset {
   border: none;
   padding: 2rem 0;
   border-bottom: 3px solid #3b3b4f;
 }
 
-fieldset:last-of-type { 
+fieldset:last-of-type {
   border-bottom: none;
 }
-input, textarea, select {
+
+input,
+textarea,
+select {
   margin-bottom: 0;
   margin-top: 10px;
   margin-left: 0;
@@ -44,13 +52,16 @@ input, textarea, select {
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
-textarea, input  {
+
+textarea,
+input {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
   min-height: 2em;
 }
-input[type="submit"]{
+
+input[type="submit"] {
   display: block;
   width: 60%;
   margin: 1em auto;
@@ -60,9 +71,11 @@ input[type="submit"]{
   border-color: white;
   min-width: auto;
 }
-input[type="file"]{
+
+input[type="file"] {
   padding: 1px 2px;
 }
+
 a {
   color: #dfdfe2;
 }
